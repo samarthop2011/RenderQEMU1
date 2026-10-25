@@ -1,4 +1,4 @@
-```bash
+bash
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
@@ -33,4 +33,3 @@ exec sudo -u lab -H env \
         --disable-telemetry \
         --disable-update-check \
         /workspace
-```
