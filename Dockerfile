@@ -1,4 +1,4 @@
-```dockerfile
+dockerfile
 FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -45,4 +45,3 @@ WORKDIR /workspace
 EXPOSE 7860
 
 ENTRYPOINT ["/bin/bash", "/usr/local/bin/entrypoint.sh"]
-```
