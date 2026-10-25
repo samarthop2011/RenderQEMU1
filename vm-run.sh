@@ -1,4 +1,4 @@
-```bash
+bash
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
@@ -86,4 +86,3 @@ else
     echo "QEMU failed to start. Check the container logs."
     exit 1
 fi
-```
