@@ -1,4 +1,4 @@
-```bash
+bash
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
@@ -29,4 +29,3 @@ qemu-img create -f qcow2 "$DISK" "$SIZE"
 
 echo "VM disk created: $DISK"
 echo "Next: vm-run $NAME /workspace/isos/installer.iso"
-```
